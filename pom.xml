@@ -59,10 +59,11 @@
 				<version>${quarkus-plugin.version}</version>
 				<executions>
 					<execution>
+						<?m2e ignore?>
 						<goals>
-							<goal>generate-code</goal>
-							<goal>generate-code-tests</goal>
-							<goal>build</goal>
+								<goal>generate-code</goal>
+								<goal>generate-code-tests</goal>
+								<goal>build</goal>
 						</goals>
 					</execution>
 				</executions>
