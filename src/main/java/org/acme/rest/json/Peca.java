@@ -1,14 +1,15 @@
 package org.acme.rest.json;
 
-public class Fruit {
-
+public class Peca {
+	public Integer id;
 	public String name;
 	public String description;
 
-	public Fruit() {
+	public Peca() {
 	}
 
-	public Fruit(String name, String description) {
+	public Peca( Integer id, String name, String description) {
+		this.id = id;
 		this.name = name;
 		this.description = description;
 	}
